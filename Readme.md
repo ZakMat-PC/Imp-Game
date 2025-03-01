@@ -31,26 +31,4 @@ ESC: Exit the game
 R: Restart after game over
 Running the Game
 Execute the following command in the terminal:
-
-sh
-Copy
-Edit
-python imp.py
-Ensure that the assets folder contains the necessary images (background.png, pillar.png, and imp_frame_1.png to imp_frame_4.png).
-
-Folder Structure
-lua
-Copy
-Edit
-Imp-Game/
-│-- assets/
-│   ├── background.png
-│   ├── pillar.png
-│   ├── imp_frame_1.png
-│   ├── imp_frame_2.png
-│   ├── imp_frame_3.png
-│   ├── imp_frame_4.png
-│-- imp.py
-│-- high_scores.db
-│-- requirements.txt
-│-- README.md
+main.py
